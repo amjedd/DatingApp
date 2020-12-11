@@ -7,9 +7,7 @@ namespace API.Controllers
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
 
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController
+    public class UsersController : BaseApiController
     {
 
         private readonly DataContext _context;
